@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Spring Boot 2 - Client side cache buster</title>
+<!-- Add the CSS and Javascript locations using the Thymeleaf tags -->
+<link type="text/css" th:href="@{~/css/sb2cachebuster.css}" rel="stylesheet">
+<script th:src="@{~/js/sb2cachebuster.js}"></script>
+</head>
+<body>
+	<h3>Sunit Katkar's Blog: Spring Boot 2 + Thymeleaf - Versioning static assets for client side cache busting</h3>
+	<hr/>
+	<p>The current time is <b><span th:text="${currentDateTime}"></span></b>
+	<hr/>
+	<p>The encoded URLs for CSS are JS are:<br/>
+	CSS: &lt;type="text/css" href="<span th:text="@{~/css/sb2cachebuster.css}"></span>" rel="stylesheet"&gt;<br/>
+	JS: &lt;script src="<span th:text="@{~/js/sb2cachebuster.js}"></span>"></script>
+	</p>
+	<button onclick="javascript:clickMe()">Click Me (calls a method in the included javascript)</button>
+	<p>Visit <a href="https://sunitkatkar.blogspot.com" target="_blank">my blog.</a> Thank you</p>
+</body>
+</html>
