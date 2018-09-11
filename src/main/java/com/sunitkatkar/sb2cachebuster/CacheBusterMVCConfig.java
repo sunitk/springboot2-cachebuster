@@ -33,10 +33,11 @@ import org.springframework.web.servlet.resource.ResourceUrlEncodingFilter;
 public class CacheBusterMVCConfig implements WebMvcConfigurer {
 
     /**
-     * Define the ResourceUrlEncodingFilter as a bean. Add the
-     * <code>@ConditionalOnEnabledResourceChain</code> to ensure that the resource
-     * chain property <code>spring.resources.chain.enabled=true</code> is set to
-     * true in the <code>application.properties</code> file.
+     * Define the ResourceUrlEncodingFilter as a bean. 
+     * Add the <code>@ConditionalOnEnabledResourceChain</code> 
+     * to ensure that the resource chain property 
+     * <code>spring.resources.chain.enabled=true</code> 
+     * is set to true in the <code>application.properties</code> file.
      * 
      * @return
      */
