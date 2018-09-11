@@ -21,7 +21,7 @@ and import as an Existing Maven project in your IDE.
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License - see the [LICENSE.md](https://github.com/sunitk/springboot2-cachebuster/blob/master/LICENSE) file for details
 
 ## Request
 If you like this repository, please star it. You are free to fork this repository, but please drop me a note at sunitkatkar@gmail.com. 
